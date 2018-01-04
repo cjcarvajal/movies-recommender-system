@@ -8,15 +8,15 @@ In this repository you will find the implementation of two recommender systems: 
 
 The files movies-data.csv and ratings.csv are prepocessed from original ones. The original files belongs to [Kaggle](https://www.kaggle.com/), specifically to [The Movies Dataset](https://www.kaggle.com/rounakbanik/the-movies-dataset) so the intellectual property of this files and all right reserved belongs to Kaggle.
 
-I remove some columns and reduce the size of the ratings file so it can be loaded on memory, you could try other approaches or try with your own preprocessed files.
+I removed some columns and reduced the size of the ratings file so it can be loaded on memory, you could try other approaches or try with your own preprocessed files.	
 
 ## Collaborative Filtering
 
 What tools did I use:
 
-* [Apache Mahout](https://www.mongodb.com/)
-* [Spring Boot](https://www.python.org/)
-* [Swagger](https://twitter.com/)
+* [Apache Mahout](http://mahout.apache.org/)
+* [Spring Boot](https://projects.spring.io/spring-boot/)
+* [Swagger](https://swagger.io/)
 
 ### Execution
 
@@ -43,6 +43,9 @@ http://localhost:8080/recommender/swagger-ui.html
 ```
 
 Try the endpoint on recommender-controller sending a number as userId.
+
+![alt text](https://github.com/cjcarvajal/movies-recommender-system/blob/master/images/response.png)
+
 
 You could also request recommendations using CURL:
 
