@@ -60,3 +60,7 @@ In this request we are sending 1 as the userId.
 This is a maven project, you can import it in your favourite IDE, it exposes an endpoint on the class **RecommenderController**. In the core package you will find **RecommenderTrainedModel** which use Mahout implementation to load the ratings.csv file, this file contains tuples of : userId, movieId, rating. I build a model of type User-User so I am finding similar users to make predictions. Mahout also let you to use Item-Item. The metric to find neighbours is Cosine Similarity. I use a fixed number of 100 neighbours.
 
 The class **PersistenceManager** just simply load the movies.csv file which contains tuples of: movieId, movieName. The class expose a method which receives a movieId and returns it's name.
+
+## Content Based Recommender
+
+Still working on the Python project. Come back soon!!
