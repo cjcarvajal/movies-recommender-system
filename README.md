@@ -1,6 +1,6 @@
 # Movies-Recommender-System
 
-How does Netflix fill your initial dashboard with all those great films you want to see? How does they do so good predictions and show you that Vikings last season or that Star Wars trilogy? How does Spotify reads your mind and knows exactly which song do you want to listen next? How this app recommends you those artist that play the genres you like? This "magic" is achieved thanks to Recommender Systems. If you arrive here thanks to my blog you know a little theory about this topic, if not you can find a short explanation [here](blog url).
+How does Netflix fill your initial dashboard with all those great films you want to see? How does they do so good predictions and show you that Vikings last season or that Star Wars trilogy? How does Spotify reads your mind and knows exactly which song do you want to listen next? How this app recommends you those artist that play the genres you like? This "magic" is achieved thanks to Recommender Systems. If you arrive here thanks to my blog you know a little theory about this topic, if not you can find a short explanation [here](https://leantechblog.wordpress.com/2018/01/03/how-does-netflix-or-spotify-knows-what-you-like-a-briefing-on-recommender-systems/).
 
 In this repository you will find the implementation of two recommender systems: one with collaborative filtering in Java and a content based recommender in Python.
 
