@@ -63,4 +63,4 @@ The class **PersistenceManager** just simply load the movies.csv file which cont
 
 ## Content Based Recommender
 
-You could check a working demo with the sames files [here](https://github.com/cjcarvajal/content-based-recommender-system)
+You could check a working demo with the sames files [here](https://github.com/cjcarvajal/content-based-recommender-system).
